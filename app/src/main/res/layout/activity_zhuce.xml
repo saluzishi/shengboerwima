@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/pic_2"
+    tools:context=".zhuceActivity">
+
+
+    <TextView
+        android:id="@+id/tv_zc_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="欢迎使用声动世界"
+        android:textColor="#666666"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/et_zc_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="用户名"
+        android:textColorHint="@color/black"
+        android:maxLines="1"
+        android:padding="5dp"
+
+        android:layout_marginTop="100dp"
+        />
+    <EditText
+        android:id="@+id/et_zc_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="密码"
+        android:textColorHint="@color/black"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="textPassword"
+
+        />
+    <EditText
+        android:id="@+id/et_zc_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="确认密码"
+        android:textColorHint="@color/black"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="textPassword"
+
+        />
+    <EditText
+        android:id="@+id/et_zc_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="昵称"
+        android:textColorHint="@color/black"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="textPassword"
+
+        />
+    <Button
+        android:id="@+id/btn_zc_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/waikuang"
+
+        />
+
+</LinearLayout>

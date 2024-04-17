@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">声动世界</string>
+    <string name="info">声动世界</string>
+    <string name="init_str">hello123</string>
+    <string name="copyright">&#169;2020-2022 秦皇岛致歌通恩科技有限公司</string>
+
+    <string name="command_effect">效果</string>
+    <string name="command_ok">确定</string>
+    <string name="permission_lack_record">缺少录音权限</string>
+    <string name="permission_lack_record_info">请添加录音权限，否则无法使用</string>
+    <string name="send_data">发送数据</string>
+    <string name="stop_send">停止发送</string>
+    <string name="start_listen">开始监听</string>
+    <string name="stop_listen">停止监听</string>
+
+    <string name="state">状态:%1$s%2$s</string>
+    <string name="state_listening_sonic">正在监听声波...</string>
+    <string name="state_stop_listening_sonic">停止监听声波</string>
+    <string name="state_receiving_data">正在接收数据...</string>
+    <string name="state_receiving_successful">（接收数据成功！）</string>
+    <string name="state_receiving_failed">（接收数据失败！）</string>
+
+    <string name="record_from_file">(从文件获取录音数据)</string>
+    <string name="write_pcm_to_file">"(开启-写pcm数据到文件)</string>
+
+    <string-array name="effect_array">
+        <item>声波</item>
+        <item>超声波</item>
+        <item>自定义</item>
+    </string-array>
+
+    <string-array name="effect_param_array">
+        <item>门铃</item>
+        <item>狗叫</item>
+        <item>咻咻</item>
+    </string-array>
+</resources>
